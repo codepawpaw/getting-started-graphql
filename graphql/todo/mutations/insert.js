@@ -3,8 +3,8 @@ import {
   GraphQLBoolean
 } from 'graphql';
 
-import TodoInput from '../input/todo_input.js';
-import TodoModel from '../../../../models/todo_model';
+import TodoInput from "../todo_input";
+import TodoModel from "../todo_model";
 
 export default {
   type: GraphQLBoolean,

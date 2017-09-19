@@ -4,9 +4,7 @@
   "description": "Todolist app using graphql",
   "scripts": {
     "start": "node index.js",
-    "test": "babel-node node_modules/.bin/jasmine",
-    "build:dev": "yarn webpack -- --env=dev --watch",
-    "build:dist": "yarn webpack -- --env=prod"
+    "test": "babel-node node_modules/.bin/jasmine"
   },
   "dependencies": {
     "autoprefixer": "^7.1.1",

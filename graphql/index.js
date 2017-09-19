@@ -3,8 +3,8 @@ import {
   GraphQLSchema
 } from 'graphql';
 
-import MutationOperations from './mutations/mutation_operations.js';
-import QueriesOperations from './queries/queries_operations.js';
+import MutationOperations from './mutation_operations.js';
+import QueriesOperations from './queries_operations.js';
 
 class Index {
 

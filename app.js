@@ -4,12 +4,12 @@ import mongoose from 'mongoose';
 import path from 'path';
 
 import Schema from './graphql';
-import Package from './package_loader';
 
 var app = express();
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
+app.use(express.static(__dirname + '/public'));
 
 app.post('/graphql', graphqlHTTP({
   schema: Schema.schema(),
