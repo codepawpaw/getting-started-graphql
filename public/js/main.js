@@ -30,7 +30,7 @@ function removeTodo(id) {
 }
 
 function sendPOSTRequest(query, resolver, xhr) {
-	var url ="/graphql";
+	var url ="https://nodejs-graphql.herokuapp.com/graphql";
 	xhr.open("POST", url);
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.setRequestHeader("Accept", "application/json");
