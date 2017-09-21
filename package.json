@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Todolist app using graphql",
   "scripts": {
-    "start": "node index.js",
-    "test": "babel-node node_modules/.bin/jasmine"
+    "start": "node index.js"
   },
   "dependencies": {
     "autoprefixer": "^7.1.1",
@@ -13,10 +12,6 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.5.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "compression-webpack-plugin": "^0.4.0",
     "cssnano": "^3.10.0",
@@ -25,17 +20,7 @@
     "express-graphql": "^0.4.5",
     "extract-text-webpack-plugin": "^2.1.2",
     "graphql": "^0.4.14",
-    "mongoose": "^4.3.5",
-    "postcss-calc": "^6.0.0",
-    "postcss-loader": "^2.0.6",
-    "qrious": "^4.0.2",
-    "react": "^15.5.4",
-    "react-addons-perf": "^15.4.2",
-    "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.5.4",
-    "react-test-renderer": "^15.5.4",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.0.0"
+    "mongoose": "^4.3.5"
   },
   "devDependencies": {
     "babel-register": "^6.26.0"
