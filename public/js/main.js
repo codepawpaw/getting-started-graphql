@@ -30,7 +30,7 @@ function removeTodo(id) {
 }
 
 function sendPOSTRequest(query, resolver, xhr) {
-	var url ="http://localhost:3000/graphql";
+	var url ="/graphql";
 	xhr.open("POST", url);
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.setRequestHeader("Accept", "application/json");
