@@ -26,7 +26,7 @@ app.use('/', (req, res) => {
 });
 
 // Connect mongo database
-mongoose.connect('mongodb://root:root@ds017165.mlab.com:17165/bornevia');
+mongoose.connect('mongodb://root:root@ds017165.mlab.com:17165/bornevia',{ useMongoClient: true });
 
 
 // start server

@@ -23,6 +23,12 @@ Run
 npm start
 ```
 
+Run Test
+
+```sh
+npm test
+```
+
 ### Open the App in browser
 
 Graphql editor
