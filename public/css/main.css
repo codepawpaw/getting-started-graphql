@@ -12,5 +12,10 @@ form {
 
 a.close {
   float: right;
+  margin-left:-20px;
+}
+
+.hide{
+  display:none;  
 }
 

@@ -4,14 +4,10 @@ import {
   GraphQLID
 } from 'graphql';
 
-import User from '../user/user_input';
-
 export default new GraphQLInputObjectType({
-  name: 'TodoInput',
+  name: 'UserInput',
   fields: {
     _id: {type: GraphQLID},
-    title: {type: GraphQLString},
-    description: {type: GraphQLString},
-    creator: {type: User}
+    name: {type: GraphQLString}
   }
 });
