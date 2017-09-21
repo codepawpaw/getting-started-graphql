@@ -13,12 +13,10 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.5.1",
     "babel-register": "^6.26.0",
-    "compression-webpack-plugin": "^0.4.0",
     "cssnano": "^3.10.0",
     "ejs": "^2.5.7",
     "express": "^4.13.3",
     "express-graphql": "^0.4.5",
-    "extract-text-webpack-plugin": "^2.1.2",
     "graphql": "^0.4.14",
     "mongoose": "^4.3.5"
   },
