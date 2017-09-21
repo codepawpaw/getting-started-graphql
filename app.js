@@ -30,6 +30,6 @@ mongoose.connect('mongodb://root:root@ds017165.mlab.com:17165/bornevia',{ useMon
 
 
 // start server
-var server = app.listen(5000, () => {
+var server = app.listen(3000, () => {
   console.log('Listening at port', server.address().port);
 });
