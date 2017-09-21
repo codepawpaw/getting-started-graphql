@@ -23,7 +23,7 @@ Run
 npm start
 ```
 
-###Open the App in browser
+### Open the App in browser
 
 Graphql editor
 
