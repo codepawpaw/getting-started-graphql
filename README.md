@@ -23,3 +23,16 @@ Run
 npm start
 ```
 
+###Open the App in browser
+
+Graphql editor
+
+```sh
+http://localhost:3000/graphql
+```
+
+Application index
+
+```sh
+http://localhost:3000
+```
